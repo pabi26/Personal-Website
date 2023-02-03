@@ -1,0 +1,55 @@
+#container{
+    border: 2px solid rgb(0, 0, 0);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(148, 149, 154);
+    padding: 7px;
+    color: white;
+   
+}
+h1{
+    font-size: 45px;
+}
+
+button{
+    width: 100%;
+}
+
+#title{
+    background-image: url("/images/toronto2.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 100px 10px 0px;
+    color: rgba(255, 255, 255, 0.944);
+    border: 1px solid black;
+    font-family: 'IM Fell English SC', serif;
+}
+
+#background{
+    background-color: hsl(0, 0%, 0%);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#getToKnowMe,
+#Education,
+#Goals {
+    display: none;
+}
+
+.closeBtn{
+    width: 50%;
+    margin-top: 10px;
+}
+
+img{
+    width: 80%;
+    height: 250px;
+    padding-top: 10px;
+
+}
+
+.sectionTitle{
+    border-bottom: 1px solid white;
+}
